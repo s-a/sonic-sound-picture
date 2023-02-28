@@ -57,16 +57,16 @@ You can create up to 12 bands. All these properties will be automated by SSP sof
 
 These properties will be automated before rendering process but you can play around with theses values while template creation process.
 
-| Name | Range | Description |
-| ---- | ----- | ----------- |
-| scene_fps | between 24 and 60 | (internal use) needed to sync computation of effects in sync between beats per minute of a song and the frames per second of a video |
-| song_beat_id | 0-3 | A kind of bar counter in sync with a song with iterates  |
-| song_bpm | 0-n | The beats per minute of a song |
-| song_frequency_band_00 | 0-1 | The amplitude value of a frequency spectrum range in relation of values between `0` and `1`. You can create up to 12 bands `..._band_00` to `..._band_11`. SSP software will split up the audio frequency ranges evenly between available bands in your template |
-| song_impulse | 0-1 | Song impulse pulsing in a time range of one bar from `0` to `1` |
-| song_length_seconds | 0-n | Song length in seconds |
-| song_progress | 0-1 | Song Progress |
-| song_section_id | 0-n | Song section detected by SSP software where each section describes a specific within a song represented by a number. For example intro, chorus, verse, outro etc. |
+| Name | Range | Type | Description |
+| ---- | ----- | ---- | ----------- |
+| scene_fps | between 24 and 60 | Constant | (internal use) needed to sync computation of effects in sync between beats per minute of a song and the frames per second of a video |
+| song_beat_id | 1-4 | Variable | Beat counter in sync with a song |
+| song_bpm | 0-n | Constant | The beats per minute of a song |
+| song_frequency_band_00 | 0-1 | Variable | The amplitude value of a frequency spectrum range in relation of values between `0` and `1`. You can create up to 12 bands `..._band_00` to `..._band_11`. SSP software will split up the audio frequency ranges evenly between available bands in your template |
+| song_impulse | 0-1 | Variable | Song impulse pulsing in a time range of one bar from `0` to `1` |
+| song_length_seconds | 0-n | Variable | Song length in seconds |
+| song_progress | 0-1 | Variable | Song Progress |
+| song_section_id | 0-n | Variable | Song section detected by SSP software where each section describes a specific within a song represented by a number. For example intro, chorus, verse, outro etc. |
 
 
 ### Template configuration definition
