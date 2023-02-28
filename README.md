@@ -92,7 +92,7 @@ A `parms` schema is defined as follows.
 
 | Key | Description |
 | --- | ----------- |
-| type | text|file|color defines the type if input for the user |
+| type | (text \| file \| color) defines the type if input for the user |
 | title | defines title of input |
 | value | defines default value of the input |
 | path | defines the blender path selector to object within the blend file |
