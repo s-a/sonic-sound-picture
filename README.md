@@ -33,6 +33,10 @@ Sonic Sound Picture (SSP) Cross platform Music Visualizer Software based on Blen
 
 More at our Discord Server...
 
+#### Real World Showcase on YouTube (Click the image)
+
+[![Sonic Sound Picture (SSP) Real World Showcase on YouTube](https://img.youtube.com/vi/CkwoATMSfSs/maxresdefault.jpg)](https://www.youtube.com/watch?v=CkwoATMSfSs)
+
 #### Afraid Circle
 
 ![Sonic Sound Picture (SSP) Showcase - Afraid Circle](media/afraid_circle_AdobeExpress.gif)
