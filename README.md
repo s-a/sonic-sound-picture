@@ -63,14 +63,30 @@ If you create and new template your are invited to share it with community or at
 
 ### Add a new fresh template blend file
 
-Open the blueprint from `...\templates\@factory\labs-prototype\template.blend` (Hover over template image in GUI to inspect the path on your system). Either remove not needed objects or create a new blend file and copy the `empty` `SONIC_SOUND_PICTURE_DATA_STORAGE`. This `empty` is very important because it holds the need `custom properties` to automate the audio dynamics for visualisation.
-Save the file in your own creator name namespace folder for example `@john-doe`. There your need to create a own folder for each template you whish to create for example `my-cool-template`. All at `C:\Users\...\AppData\Roaming\ssp\templates` (there is a shortcut to the folder in GUI main menu ![Sonic Sound Picture (SSP) Application GUI Main Menu](media/app_menu.JPG)) 
-For example `C:\Users\...\AppData\Roaming\ssp\templates\@john-doe\my-cool-template`
+To create your own template in the Sonic Sound Picture (SSP) application, follow these steps. The easiest way is to create a clone of an existing template by simply copy and adjust the files
 
-Each template folder  needs 3 files to be valid.
-- template.blend (Blender template file)
-- template.json (Template configuration)
-- template.png (480x270 Template preview for SSP GUI)
+1. Copy a factory template folder located for example `<app_dir>\templates\@factory\labs-prototype` to `C:\<username>\AppData\Roaming\ssp\templates\@john-doe\my-cool-template` where `@john-doe` ist your artist username and `my-cool-template` should be a short name of your template. You can find the exact path to factory templates on your system by hovering over the template image in the GUI or quick jump to folder with the context menu `{Templates}`. You can clone any factory template you like to start with.
+
+	![Sonic Sound Picture (SSP) Application GUI Main Menu](media/app_menu.JPG)
+
+2. Open your cloned `template.blend` and adjust anything except the `empty` `SONIC_SOUND_PICTURE_DATA_STORAGE` object. This object is important because it holds custom properties for audio dynamics visualization automation.
+
+3. Adjust `template.json` and `template.png`.
+
+4. Restart the app. After All these steps are done your new template apers at ***step 2 workflow (select template)***
+
+A template folder for example `C:\<username>\AppData\Roaming\ssp\templates\@john-doe\my-cool-template` needs 3 files to be valid.
+- `template.blend` (Blender template file)
+- `template.json` (Template configuration)
+- `template.png` (480x270 Template preview for SSP GUI)
+
+### Creator process workflow
+
+1. Adjust your `.blend` file.
+2. Render with SPP output type `blender` instead of `video`.
+3. Check the result by opening the rendered file and simply play it within blender.
+4. Return to step 1 until you are finished and happy with the result.
+
 
 ### Automation basics
 
@@ -110,7 +126,7 @@ These properties will be automated before rendering process but you can play aro
 
 #### Custom template parameters
 
-In your template configuration you can also add custom properties which can be changed by the user while template configuration (see ***step 3 of workflow***) For example colors, texts, images, logos etc. Each of theses custom properties become a `parms` object within your new `template.json`
+In your template configuration you can also add custom properties which can be changed by the user while template configuration (see ***step 3 of workflow***) For example colors, texts, images, logos etc. Each of theses custom properties become a `parms` object within your new `template.json`. You can create aas much parameters as you want.
 
 A `parms` schema is defined as follows.
 
@@ -156,4 +172,3 @@ Each path can be easy observed with a blender context menu (Copy Full Data Path)
 }
 ```
 
-After All these steps are done your new template apers at ***step 2 workflow (select template)***
