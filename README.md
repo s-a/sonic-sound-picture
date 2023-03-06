@@ -65,7 +65,7 @@ If you create and new template your are invited to share it with community or at
 
 To create your own template in the Sonic Sound Picture (SSP) application, follow these steps. The easiest way is to create a clone of an existing template by simply copy and adjust the files
 
-1. Copy a factory template folder located for example `<app_dir>\templates\@factory\labs-prototype` to `C:\<username>\AppData\Roaming\ssp\templates\@john-doe\my-cool-template` where `@john-doe` ist your artist username and `my-cool-template` should be a short name of your template. You can find the exact path to factory templates on your system by hovering over the template image in the GUI or quick jump to folder with the context menu `{Templates}`. You can clone any factory template you like to start with.
+1. Copy a factory template folder located for example `<factory_templates_dir>\labs-prototype` to `<user_templates_dir>\@<ARTIST_NAME>\<TEMPLATE_NAME>`. You can find the exact path to factory and user templates folder on your system with context menus `{User Templates}` or `{Factory Templates}`. You can clone any factory template you like to start with.
 
 	![Sonic Sound Picture (SSP) Application GUI Main Menu](media/app_menu.JPG)
 
@@ -90,7 +90,10 @@ A template folder for example `C:\<username>\AppData\Roaming\ssp\templates\@john
 
 ### Automation basics
 
-The `empty` `SONIC_SOUND_PICTURE_DATA_STORAGE` contains already `custom properties`. There are also `custom properties` to visualize the frequency bands. ![Blender context menu](media/sonic_sound_picture_data_storage_custom_properties.JPG)
+The `empty` `SONIC_SOUND_PICTURE_DATA_STORAGE` contains already `custom properties`. There are also `custom properties` to visualize the frequency bands. 
+
+![Blender context menu](media/sonic_sound_picture_data_storage_custom_properties.JPG)
+
 You can create up to 16 bands. All these properties will be automated by SSP software (bands in range from `0` to `1`). The simple magic behind all this stuff is to bind a driver to any object you can imagine in blender. Scale.Z or color emission strength. You name it. 
 
 #### Automated Properties
@@ -122,6 +125,7 @@ These properties will be automated before rendering process but you can play aro
 | allowCompositionNode | determines if the user is allowed to activate the composition node of the blend file while rendering |
 | allowTransparent | determines if the user is allowed to render the video with a transparent background |
 | description | a short description of your template |
+| url | a social media link either to promote your template or you as an artist |
 | parms | the parameter collection you want to provide |
 
 #### Custom template parameters
@@ -137,7 +141,9 @@ A `parms` schema is defined as follows.
 | value | defines default value of the input |
 | path | defines the blender path selector to object within the blend file |
 
-Each path can be easy observed with a blender context menu (Copy Full Data Path). ![Blender copy data path](media/copy_data_path.JPG)
+Each path can be easy observed with a blender context menu (Copy Full Data Path). 
+
+![Blender copy data path](media/copy_data_path.JPG)
 
 
 #### template.json example
@@ -149,6 +155,7 @@ Each path can be easy observed with a blender context menu (Copy Full Data Path)
 	"allowCompositionNode": false,
 	"allowTransparent": true,
 	"description": "For testing and development purposes. All features are implemented based on this template. It contains some prototypes for display elements and all necessary attributes.  This template is therefore perfect as a blueprint for new template creations.",
+	"url": "https://github.com/s-a/sonic-sound-picture",
 	"parms": [
 		{
 			"type": "text",
