@@ -126,6 +126,7 @@ These properties will be automated before rendering process but you can play aro
 | allowTransparent | determines if the user is allowed to render the video with a transparent background |
 | description | a short description of your template |
 | url | a social media link either to promote your template or you as an artist |
+| license | a license tag. [All Available tags are listed here](./license.json)  |
 | parms | the parameter collection you want to provide |
 
 #### Custom template parameters
@@ -156,6 +157,7 @@ Each path can be easy observed with a blender context menu (Copy Full Data Path)
 	"allowTransparent": true,
 	"description": "For testing and development purposes. All features are implemented based on this template. It contains some prototypes for display elements and all necessary attributes.  This template is therefore perfect as a blueprint for new template creations.",
 	"url": "https://github.com/s-a/sonic-sound-picture",
+	"license" : "public-domain",
 	"parms": [
 		{
 			"type": "text",
