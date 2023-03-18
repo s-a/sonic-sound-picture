@@ -8,6 +8,7 @@ Sonic Sound Picture (SSP) Cross platform Music Visualizer Software based on Blen
 
 - [Download](https://github.com/s-a/sonic-sound-picture/releases) 
 - [Join the discord server](https://discord.com/invite/MaKtp6jx3T) 
+- [Blender Addon (for creators only)](https://github.com/s-a/easy-ssp/)
 
 ### Workflow
 
