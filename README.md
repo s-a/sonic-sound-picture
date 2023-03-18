@@ -61,8 +61,6 @@ If you create and new template your are invited to share it with community or at
 
 ![Alt text](media/demo_mastered_labs-prototype_AdobeExpress.gif)
 
-## Create templates
-
 ### Add a new fresh template
 
 To create a fresh template SSP comes with a Blender Addon [Easy SSP](https://github.com/s-a/easy-ssp) which provides a set of tools and utilities to focus on creativity and not on technical aspects 🚀. 
