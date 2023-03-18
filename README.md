@@ -61,7 +61,13 @@ If you create and new template your are invited to share it with community or at
 
 ![Alt text](media/demo_mastered_labs-prototype_AdobeExpress.gif)
 
-### Add a new fresh template blend file
+## Create templates
+
+### Add a new fresh template
+
+To create a fresh template SSP comes with a Blender Addon [Easy SSP](https://github.com/s-a/easy-ssp) which provides a set of tools and utilities to focus on creativity and not on technical aspects 🚀. 
+
+### Clone template files
 
 To create your own template in the Sonic Sound Picture (SSP) application, follow these steps. The easiest way is to create a clone of an existing template by simply copy and adjust the files
 
