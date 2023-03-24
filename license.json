@@ -29,7 +29,7 @@
 		"description": "This license lets others remix, tweak, and build upon your work even for commercial reasons, as long as they credit you and license their new creations under the identical terms. This license is often compared to open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use.",
 		"url": "http://creativecommons.org/licenses/by-sa/3.0/"
 	},
-	"licenses/by-3.0": {
+	"by-3.0": {
 		"name": "Attribution",
 		"description": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered, in terms of what others can do with your works licensed under Attribution.",
 		"url": "http://creativecommons.org/licenses/by/3.0/"
