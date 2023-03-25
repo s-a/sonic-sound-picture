@@ -2,28 +2,29 @@
 
 If you create and new template your are invited to share it with community or at least a showcase on our discord server. I am very excited to see what a real blender artist could do with this software 🤙. 
 
+## Template locations
+
+Theres exist 2 folders containing templates on the system.
+
+- Factory templates: `<FACTORY_TEMPLATES_DIR>\<template_name>` 
+- User templates: `<USER_TEMPLATES_DIR>\@<artist_name>\<template_name>`
+
+You can browse to these `<FACTORY_TEMPLATES_DIR>` and `<USER_TEMPLATES_DIR>` directories using the GUI main menu.  
+![Sonic Sound Picture (SSP) Application GUI Main Menu](media/app_menu.JPG)
+
 ## Add a new fresh template
 
-SSP comes with a Blender Addon [Easy SSP](https://github.com/s-a/easy-ssp) which provides a set of tools and utilities to create new fresh template focus on creativity and not on technical aspects 🚀. All this this stuff can also be done manually as follows.
+To start from scratch SSP comes with a Blender Addon [Easy SSP](https://github.com/s-a/easy-ssp) which provides a set of tools and utilities to create new fresh template where you can focus on creativity and not on technical aspects 🚀. 
 
 ## Clone template files
 
-To create your own template in the Sonic Sound Picture (SSP) application, follow these steps. The easiest way is to create a clone of an existing template by simply copy and adjust the files
+If you like an existing template you can make a clone and edit the new copy. Since v1.0.15 SSP provides a easy way todo that.
 
-1. Copy a factory template folder located for example `<factory_templates_dir>\labs-prototype` to `<user_templates_dir>\@<ARTIST_NAME>\<TEMPLATE_NAME>`. You can find the exact path to factory and user templates folder on your system with context menus `{User Templates}` or `{Factory Templates}`. You can clone any factory template you like to start with.
+1. Select a template you which to clone in the template overview
+2. Click the `Clone` menu item above the overview. *Be sure you provided a `Template Artist name` before!* 
+3. Click `Edit` or `Browse` menu item 
 
-	![Sonic Sound Picture (SSP) Application GUI Main Menu](media/app_menu.JPG)
-
-2. Open your cloned `template.blend` and adjust anything except the `empty` `SONIC_SOUND_PICTURE_DATA_STORAGE` object. This object is important because it holds custom properties for audio dynamics visualization automation.
-
-3. Adjust `template.json` and `template.png`.
-
-4. Restart the app. After All these steps are done your new template apers at ***step 2 workflow (select template)***
-
-A template folder for example `C:\<username>\AppData\Roaming\ssp\templates\@john-doe\my-cool-template` needs 3 files to be valid.
-- `template.blend` (Blender template file)
-- `template.json` (Template configuration)
-- `template.png` (480x270 Template preview for SSP GUI)
+![Clone a Sonic Sound Picture Template](media/clone_template.JPG)
 
 ## Creator process workflow
 
@@ -32,6 +33,11 @@ A template folder for example `C:\<username>\AppData\Roaming\ssp\templates\@john
 3. Check the result by opening the rendered file and simply play it within blender.
 4. Return to step 1 until you are finished and happy with the result.
 
+A template folder needs 3 files to be valid. Otherwise it will not show up in GUI' s template overview.
+
+- `template.blend` (Blender template file)
+- `template.json` (Template configuration)
+- `template.png` (480x270 Template preview for SSP GUI)
 
 ## Automation basics
 
