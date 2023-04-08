@@ -14,15 +14,14 @@ You can browse to these `<FACTORY_TEMPLATES_DIR>` and `<USER_TEMPLATES_DIR>` dir
 
 ## Add a new fresh template
 
-To start from scratch SSP comes with a Blender Addon [Easy SSP](https://github.com/s-a/easy-ssp) which provides a set of tools and utilities to create new fresh template where you can focus on creativity and not on technical aspects 🚀. 
+To start from scratch click on `Create Template` button in the `Template` tab section with SPP GUI. It creates a template folder with a `.blend` file already contains a pre-configured `empty` `SONIC_SOUND_PICTURE_DATA_STORAGE` which is all you need. There is also a little script inside which will render a thumbnail image once you finished your creator process. Goto Blender' s `Scripting` area and execute the script.
 
 ## Clone template files
 
-If you like an existing template you can make a clone and edit the new copy. Since v1.0.15 SSP provides a easy way todo that.
+If you like an existing template you can make a clone and edit the new copy. Since v1.0.18 SSP provides a easy way todo that and provides other useful creator functions. 
 
-1. Select a template you which to clone in the template overview
-2. Click the `Clone` menu item above the overview. *Be sure you provided a `Template Artist name` before!* 
-3. Click `Edit` or `Browse` menu item 
+1. Select a template you which to clone in the template overview or create a new one from scratch *Be sure you provided a `Template Artist name` before!* 
+2. Click `Edit/template.blend` or `Edit/Browse` menu item to continue
 
 ![Clone a Sonic Sound Picture Template](media/clone_template.JPG)
 
@@ -32,6 +31,7 @@ If you like an existing template you can make a clone and edit the new copy. Sin
 2. Render with SPP output type `blender` instead of `video`.
 3. Check the result by opening the rendered file and simply play it within blender.
 4. Return to step 1 until you are finished and happy with the result.
+5. Configure the settings (`template.json`) other users should be able to setup before they use your template to render a video. 
 
 A template folder needs 3 files to be valid. Otherwise it will not show up in GUI' s template overview.
 
@@ -65,6 +65,10 @@ These properties will be automated before rendering process but you can play aro
 
 ## Template configuration definition
 
+Since v1.0.18 SSP contains a editor inside the GUI to edit these template files which is recommended if you are not a hacker. 
+![Sonic Sound Picture - template.json - Editor](media/ssp-json-editor.jpg)
+
+But for there others among us it follow the technical schema description.
 `template.json` schema is defined as follows.
 
 ### template.json properties
