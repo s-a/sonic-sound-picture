@@ -17,7 +17,7 @@ This template showcases various elements, including custom text, a down counting
 ## Overview
 
 - [Workflow](WORKFLOW.md)
-- [Showcases](SHOWCASE.md)
+- [Showcases](SHOWCASE.md) (New templates will only be shared on Discord because making new versions takes a lot of time.)
 - [Create new Templates](CREATORS.md) (You need some blender skills)
 	
 ## New Functions
