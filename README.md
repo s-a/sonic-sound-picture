@@ -21,6 +21,7 @@ This template showcases various elements, including custom text, a down counting
 - [Create new Templates](CREATORS.md) (You need some blender skills)
 	
 ## New Functions
+
 - Export template to zip file
 - Install templates from a zip file
 
@@ -28,5 +29,12 @@ This template showcases various elements, including custom text, a down counting
 
 - [Download Releases (Windows, Mac Os and Linux)](https://github.com/s-a/sonic-sound-picture/releases) 
 - [SSP Community Discord Server](https://discord.com/invite/MaKtp6jx3T) 
-- ~~[Blender Addon (for creators only)](https://github.com/s-a/easy-ssp/)~~ obsolete since v1.0.18
 
+## Source Code
+
+The Desktop Application is build on [electron](https://www.electronjs.org/) using [nodejs](https://nodejs.org/). To get started follow these steps. 
+
+- `git clone https://github.com/s-a/sonic-sound-picture.git`
+- `cd sonic-sound-picture` 
+- `npm install` 
+- `npm start`
