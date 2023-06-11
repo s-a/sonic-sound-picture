@@ -35,6 +35,6 @@ This template showcases various elements, including custom text, a down counting
 The Desktop Application is build on [electron](https://www.electronjs.org/) using [nodejs](https://nodejs.org/). To get started follow these steps. 
 
 - `git clone https://github.com/s-a/sonic-sound-picture.git`
-- `cd sonic-sound-picture` 
+- `cd sonic-sound-picture/electron-app` 
 - `npm install` 
 - `npm start`
