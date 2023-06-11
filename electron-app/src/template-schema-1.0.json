@@ -1,0 +1,107 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"type": "object",
+	"properties": {
+		"version": {
+			"title": "Template Version",
+			"type": "string",
+			"pattern": "^\\d+\\.\\d+\\.\\d+$",
+			"description": "A valid semver version string (https://semver.org/)"
+		},
+		"minBlenderVersion": {
+			"title": "Minimum Blender Version",
+			"type": "string",
+			"pattern": "^\\d+\\.\\d+\\.\\d+$",
+			"description": "A valid semver version string (https://semver.org/)"
+		},
+		"allowCompositionNode": {
+			"title": "Allow Composition Node",
+			"type": "boolean",
+			"description": "Will enable/disable option to render with active composition node in SSP GUI"
+		},
+		"allowTransparent": {
+			"title": "Allow Transparent render",
+			"type": "boolean",
+			"description": "Will enable/disable option to render transparent image or video in SSP GUI"
+		},
+		"description": {
+			"title": "Description",
+			"type": "string",
+			"description": "Template description displayed in SSP GUI template overview"
+		},
+		"license": {
+			"title": "License",
+			"type": "string",
+			"enum": [
+				"public-domain",
+				"by-nc-nd-3.0",
+				"by-nc-sa-3.0",
+				"by-nc-3.0",
+				"by-nd-3.0",
+				"by-sa-3.0",
+				"by-3.0",
+				"gpl-3",
+				"all-rights-reserved"
+			],
+			"description": "The license of your template"
+		},
+		"url": {
+			"title": "Url",
+			"type": "string",
+			"description": "A link to your social media or template website displayed in SSP GUI template overview"
+		},
+		"parms": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"type": {
+						"title": "Type",
+						"type": "string",
+						"enum": [
+							"text",
+							"file",
+							"color"
+						],
+						"description": "The rendered GUI input type inside SSP GUI"
+					},
+					"title": {
+						"title": "Title",
+						"type": "string",
+						"description": "The Title/Name the of the use input control presented to user inside SSP GUI"
+					},
+					"value": {
+						"type": "string",
+						"title": "Default Value",
+						"description": "The default value a the parameter presented to user inside SSP GUI (Useful for colors)"
+					},
+					"accept": {
+						"title": "Accept",
+						"type": "string",
+						"description": "Allow to define acceptable file types for file picker control inside SSP GUI for example \"image/png, image/gif, image/jpeg\""
+					},
+					"path": {
+						"title": "Full Data Path",
+						"type": "string",
+						"description": "Use \"Copy Full Data Path\" in blender and paste it here"
+					}
+				},
+				"required": [
+					"type",
+					"title",
+					"path",
+					"value"
+				]
+			}
+		}
+	},
+	"required": [
+		"version",
+		"minBlenderVersion",
+		"allowCompositionNode",
+		"allowTransparent",
+		"description",
+		"license",
+		"parms"
+	]
+}

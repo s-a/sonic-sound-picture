@@ -1,0 +1,9 @@
+{
+  "version": "2.0.1",
+  "minBlenderVersion": "3.4.1",
+  "allowCompositionNode": false,
+  "allowTransparent": false,
+  "description": "Audio Signal Level Meter",
+  "license": "public-domain",
+  "parms": []
+}

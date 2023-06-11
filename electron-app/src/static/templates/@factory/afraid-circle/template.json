@@ -1,0 +1,23 @@
+{
+	"version": "1.0.1",
+	"minBlenderVersion": "3.4.1",
+	"allowCompositionNode": true,
+	"allowTransparent": false,
+	"description": "Android standing in front of 3 sound reacting bars.",
+	"url": "https://github.com/s-a/sonic-sound-picture",
+	"license": "public-domain",
+	"parms": [
+		{
+			"type": "color",
+			"title": "Sound bar color",
+			"value": "#FFFFFF",
+			"path": "bpy.data.materials[\"Bands Material\"].node_tree.nodes[\"ColorRamp\"].color_ramp.elements[1].color"
+		},
+		{
+			"type": "color",
+			"title": "Android character color",
+			"value": "#007DFF",
+			"path": "bpy.data.materials[\"Android Material\"].node_tree.nodes[\"Emission\"].inputs[0].default_value"
+		}
+	]
+}

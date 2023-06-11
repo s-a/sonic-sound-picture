@@ -1,0 +1,35 @@
+{
+	"version": "1.0.1",
+	"minBlenderVersion": "3.4.1",
+	"allowCompositionNode": false,
+	"allowTransparent": false,
+	"frequency_scale_max": 2.8,
+	"description": "Super simple basic layout.",
+	"license": "public-domain",
+	"parms": [
+		{
+			"type": "text",
+			"title": "Band Name",
+			"value": "",
+			"path": "bpy.data.objects[\"Band Name\"].modifiers[\"GeometryNodes\"][\"Input_2\"]"
+		},
+		{
+			"type": "text",
+			"title": "Song Name",
+			"value": "",
+			"path": "bpy.data.objects[\"Song Name\"].modifiers[\"GeometryNodes\"][\"Input_2\"]"
+		},
+		{
+			"type": "color",
+			"title": "Background Color",
+			"value": "#F2B705",
+			"path": "bpy.data.materials[\"Background\"].node_tree.nodes[\"Principled BSDF\"].inputs[0].default_value"
+		},
+		{
+			"type": "color",
+			"title": "Foreground Color",
+			"value": "#0C0C0D",
+			"path": "bpy.data.materials[\"Foreground\"].node_tree.nodes[\"Principled BSDF\"].inputs[0].default_value"
+		}
+	]
+}

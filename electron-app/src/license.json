@@ -1,0 +1,47 @@
+{
+	"public-domain": {
+		"name": "Public Domain",
+		"description": "When you release your Blender files into the public domain, you are essentially giving up all of your rights to the work. This means that anyone can use, modify, or distribute the work without permission or attribution. This can be a good option if you want to encourage as much use and collaboration as possible.",
+		"url": "https://wiki.creativecommons.org/wiki/Public_domain"
+	},
+	"by-nc-nd-3.0": {
+		"name": "Attribution Non-commercial No Derivatives",
+		"description": "This license is the most restrictive Creative Commons license, allowing redistribution. This license is often called the “free advertising” license because it allows others to download your works and share them with others as long as they mention you and link back to you, but they can’t change them in any way or use them commercially.",
+		"url": "http://creativecommons.org/licenses/by-nc-nd/3.0/"
+	},
+	"by-nc-sa-3.0": {
+		"name": "Attribution Non-commercial Share Alike",
+		"description": "This license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms. Others can download and redistribute your work, but they can also translate, make remixes, and produce new stories based on your work. All new work based on yours will carry the same license, so any derivatives will also be non-commercial in nature.",
+		"url": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+	},
+	"by-nc-3.0": {
+		"name": "Attribution Non-commercial",
+		"description": "This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.",
+		"url": "http://creativecommons.org/licenses/by-nc/3.0/"
+	},
+	"by-nd-3.0": {
+		"name": "Attribution No Derivatives",
+		"description": "This license allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to you.",
+		"url": "http://creativecommons.org/licenses/by-nd/3.0/"
+	},
+	"by-sa-3.0": {
+		"name": "Attribution Share Alike",
+		"description": "This license lets others remix, tweak, and build upon your work even for commercial reasons, as long as they credit you and license their new creations under the identical terms. This license is often compared to open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use.",
+		"url": "http://creativecommons.org/licenses/by-sa/3.0/"
+	},
+	"by-3.0": {
+		"name": "Attribution",
+		"description": "This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered, in terms of what others can do with your works licensed under Attribution.",
+		"url": "http://creativecommons.org/licenses/by/3.0/"
+	},
+	"gpl-3": {
+		"name": "GPL (GNU General Public License)",
+		"description": "This license is often used for open source software, but it can also be used for other creative works. The GPL requires that any derivative works also be licensed under the GPL, which can help ensure that your work remains open and accessible to others.",
+		"url": "https://www.gnu.org/licenses/gpl-3.0.html"
+	},
+	"all-rights-reserved": {
+		"name": "All rights reserved",
+		"description": "\"All rights reserved\" is a copyright formality indicating that the copyright holder reserves, or holds for its own use, all the rights provided by copyright law.",
+		"url": "https://en.wikipedia.org/wiki/All_rights_reserved"
+	}
+}

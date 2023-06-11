@@ -1,0 +1,28 @@
+{
+	"version": "1.0.1",
+	"minBlenderVersion": "3.4.1",
+	"allowCompositionNode": false,
+	"allowTransparent": true,
+	"description": "For testing and development purposes. All features are implemented based on this template. It contains some prototypes for display elements and all necessary attributes.  This template is therefore perfect as a blueprint for new template creations.",
+	"license": "public-domain",
+	"parms": [
+		{
+			"type": "text",
+			"title": "Songname",
+			"value": "",
+			"path": "bpy.data.objects[\"Text.004\"].modifiers[\"GeometryNodes\"][\"Input_2\"]"
+		},
+		{
+			"type": "file",
+			"title": "Image",
+			"accept": "image/png, image/gif, image/jpeg",
+			"path": "bpy.data.images[\"000013.1769220830.png\"].filepath"
+		},
+		{
+			"type": "color",
+			"title": "Color",
+			"value": "#ff00ff",
+			"path": "bpy.data.materials[\"Material.001\"].node_tree.nodes[\"Emission\"].inputs[0].default_value"
+		}
+	]
+}

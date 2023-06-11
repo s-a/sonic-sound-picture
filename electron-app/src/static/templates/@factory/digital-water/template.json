@@ -1,0 +1,34 @@
+{
+	"version": "1.0.1",
+	"minBlenderVersion": "3.4.1",
+	"allowCompositionNode": false,
+	"allowTransparent": false,
+	"description": "Circly experience",
+	"license": "public-domain",
+	"parms": [
+		{
+			"type": "text",
+			"title": "Band Name",
+			"value": "",
+			"path": "bpy.data.objects[\"Band Name\"].modifiers[\"GeometryNodes\"][\"Input_2\"]"
+		},
+		{
+			"type": "text",
+			"title": "Song Name",
+			"value": "",
+			"path": "bpy.data.objects[\"Song Name\"].modifiers[\"GeometryNodes\"][\"Input_2\"]"
+		},
+		{
+			"type": "color",
+			"title": "Primary Ring Color",
+			"value": "#D705F2",
+			"path": "bpy.data.materials[\"Material.001\"].node_tree.nodes[\"ColorRamp\"].color_ramp.elements[0].color"
+		},
+		{
+			"type": "color",
+			"title": "Secondary Ring Color",
+			"value": "#220126",
+			"path": "bpy.data.materials[\"Material.001\"].node_tree.nodes[\"ColorRamp\"].color_ramp.elements[1].color"
+		}
+	]
+}

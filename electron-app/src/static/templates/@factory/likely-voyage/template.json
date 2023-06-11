@@ -1,0 +1,46 @@
+{
+	"version": "1.0.1",
+	"minBlenderVersion": "3.4.1",
+	"allowCompositionNode": false,
+	"allowTransparent": false,
+	"description": "Energetic Lights",
+	"license": "public-domain",
+	"parms": [
+		{
+			"type": "text",
+			"title": "Band Name",
+			"value": "",
+			"path": "bpy.data.objects[\"Band Name\"].modifiers[\"GeometryNodes\"][\"Input_2\"]"
+		},
+		{
+			"type": "text",
+			"title": "Song Name",
+			"value": "",
+			"path": "bpy.data.objects[\"Song Name\"].modifiers[\"GeometryNodes\"][\"Input_2\"]"
+		},
+		{
+			"type": "color",
+			"title": "Primary Color",
+			"value": "#F2668B",
+			"path": "bpy.data.materials[\"Material.001\"].node_tree.nodes[\"Emission\"].inputs[0].default_value"
+		},
+		{
+			"type": "color",
+			"title": "Secondary Color",
+			"value": "#54A1BF",
+			"path": "bpy.data.materials[\"Material.001\"].node_tree.nodes[\"Emission.001\"].inputs[0].default_value"
+		},
+		{
+			"type": "color",
+			"title": "Background Color",
+			"value": "#261D17",
+			"path": "bpy.data.worlds[\"World\"].node_tree.nodes[\"Background\"].inputs[0].default_value"
+		},
+		{
+			"type": "color",
+			"title": "Font Color",
+			"value": "#D96262",
+			"path": "bpy.data.materials[\"FontMaterial\"].node_tree.nodes[\"Emission\"].inputs[0].default_value"
+		}
+	]
+}

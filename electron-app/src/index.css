@@ -1,0 +1,55 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+body {}
+
+.wave-audio-signal-input {
+  margin-top: 22px;
+}
+
+.blured-image {
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.hidden {
+  display: none;
+}
+
+.i {
+  margin-left: 22px;
+}
+
+.i-sm {
+  margin-left: 8px;
+}
+
+.u {
+  margin-top: 11px;
+}
+
+.d {
+  margin-bottom: 11px;
+}
+
+.flip {
+  color: #1c87c9 !important;
+}
+
+.border-err {
+  width: 88%;
+  border-top: 1px solid rgba(186, 186, 186, 0.788);
+}

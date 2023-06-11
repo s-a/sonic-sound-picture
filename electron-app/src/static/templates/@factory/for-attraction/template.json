@@ -1,0 +1,9 @@
+{
+	"version": "1.0.0",
+	"minBlenderVersion": "3.4.1",
+	"allowCompositionNode": false,
+	"allowTransparent": false,
+	"description": "Organic mass in eridium colors.",
+	"license": "public-domain",
+	"parms": []
+}

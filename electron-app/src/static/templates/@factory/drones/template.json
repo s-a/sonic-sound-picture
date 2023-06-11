@@ -1,0 +1,16 @@
+{
+	"version": "1.0.0",
+	"minBlenderVersion": "3.4.1",
+	"allowCompositionNode": true,
+	"allowTransparent": true,
+	"description": "A skybrush inspired drone light show.",
+	"license": "public-domain",
+	"parms": [
+		{
+			"type": "color",
+			"title": "Meteors",
+			"value": "#FFFFFF",
+			"path": "bpy.data.materials[\"Meteor\"].node_tree.nodes[\"Emission\"].inputs[0].default_value"
+		}
+	]
+}

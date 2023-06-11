@@ -1,0 +1,10 @@
+{
+	"version": "1.0.0",
+	"minBlenderVersion": "3.4.1",
+	"allowCompositionNode": true,
+	"allowTransparent": false,
+	"description": "",
+	"license": "all-rights-reserved",
+	"url": "",
+	"parms": []
+}

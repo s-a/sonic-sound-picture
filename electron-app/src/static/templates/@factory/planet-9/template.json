@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "minBlenderVersion": "3.5.0",
+  "allowCompositionNode": true,
+  "allowTransparent": false,
+  "description": "A scanner drone on a far far away planet ",
+  "license": "public-domain",
+  "url": "https://github.com/s-a/sonic-sound-picture",
+  "parms": [
+    {
+      "type": "color",
+      "title": "Drone Scanner Light Color",
+      "value": "#BF6969",
+      "path": "bpy.data.lights[\"Spot\"].color"
+    },
+    {
+      "type": "color",
+      "title": "Drone Light Color",
+      "value": "#8C3A67",
+      "path": "bpy.data.materials[\"Drone Light\"].node_tree.nodes[\"Emission\"].inputs[0].default_value"
+    },
+    {
+      "type": "color",
+      "title": "Planet 9 Sky Light Color",
+      "value": "#11AEBF",
+      "path": "bpy.data.materials[\"sunset-473604\"].node_tree.nodes[\"ColorRamp\"].color_ramp.elements[1].color"
+    }
+  ]
+}

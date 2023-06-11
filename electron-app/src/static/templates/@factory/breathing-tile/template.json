@@ -1,0 +1,35 @@
+{
+    "version": "1.0.1",
+    "minBlenderVersion": "3.4.1",
+    "allowCompositionNode": true,
+    "allowTransparent": false,
+    "description": "Breathing Tiles",
+    "license": "public-domain",
+    "url": "https://github.com/s-a/sonic-sound-picture",
+    "parms": [
+        {
+            "type": "color",
+            "title": "Top Color",
+            "value": "#6CEEE2",
+            "path": "bpy.data.materials[\"SecondaryColor\"].node_tree.nodes[\"ColorRamp\"].color_ramp.elements[1].color"
+        },
+        {
+            "type": "color",
+            "title": "Bottom Color",
+            "value": "#E12D16",
+            "path": "bpy.data.materials[\"PrimaryColorWithNoise\"].node_tree.nodes[\"ColorRamp\"].color_ramp.elements[0].color"
+        },
+        {
+            "type": "color",
+            "title": "Accent Color",
+            "value": "#F6FE48",
+            "path": "bpy.data.materials[\"AccentColor\"].node_tree.nodes[\"ColorRamp\"].color_ramp.elements[0].color"
+        },
+        {
+            "type": "color",
+            "title": "Background Color",
+            "value": "#0D0D0D",
+            "path": "bpy.data.worlds[\"World\"].node_tree.nodes[\"Background\"].inputs[0].default_value"
+        }
+    ]
+}

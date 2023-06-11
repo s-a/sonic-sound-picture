@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "minBlenderVersion": "3.4.1",
+  "allowCompositionNode": false,
+  "allowTransparent": false,
+  "description": "The Angry Boy",
+  "license": "public-domain",
+  "url": "https://github.com/s-a/sonic-sound-picture",
+  "parms": [
+    {
+      "type": "color",
+      "title": "Eye Color",
+      "value": "#F2935C",
+      "path": "bpy.data.materials[\"eyes_material\"].node_tree.nodes[\"ColorRamp\"].color_ramp.elements[2].color",
+      "_id": 0,
+      "index": 0
+    },
+    {
+      "type": "color",
+      "title": "Mouth Color",
+      "value": "#1760BF",
+      "path": "bpy.data.materials[\"mouth_material\"].node_tree.nodes[\"ColorRamp\"].color_ramp.elements[1].color",
+      "_id": 1,
+      "index": 1
+    }
+  ]
+}

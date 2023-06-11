@@ -1,0 +1,28 @@
+{
+	"version": "1.0.1",
+	"minBlenderVersion": "3.4.1",
+	"allowCompositionNode": true,
+	"allowTransparent": true,
+	"description": "Clean and simple waveform. Due to the simplified representation, it is very well suited to be rendered transparently and then used in your own video compositions using 3rd. party software.",
+	"license": "public-domain",
+	"parms": [
+		{
+			"type": "color",
+			"title": "Waveform Color Ramp - Color 1",
+			"value": "#F26B9C",
+			"path": "bpy.data.materials[\"Material\"].node_tree.nodes[\"WaveFormColorRamp\"].color_ramp.elements[0].color"
+		},
+		{
+			"type": "color",
+			"title": "Waveform Color Ramp - Color 2",
+			"value": "#30A9D9",
+			"path": "bpy.data.materials[\"Material\"].node_tree.nodes[\"WaveFormColorRamp\"].color_ramp.elements[1].color"
+		},
+		{
+			"type": "color",
+			"title": "Waveform Color Ramp - Color 3",
+			"value": "#F2E85C",
+			"path": "bpy.data.materials[\"Material\"].node_tree.nodes[\"WaveFormColorRamp\"].color_ramp.elements[2].color"
+		}
+	]
+}
